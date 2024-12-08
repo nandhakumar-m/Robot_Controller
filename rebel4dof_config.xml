@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!-- values in mm and degrees --><Program>
+                            
+    
+    
+    
+    
+    
+    <Header/>
+                            
+    
+    
+    
+    
+    
+    
+    <!-- Initial position for all 4 joints -->
+                            
+    
+    
+    
+    
+    
+    <Joint AbortCondition="false" Descr="Initial position" Nr="0" a1="0" a2="0" a3="0" a4="0" acc="100" smooth="0" velPercent="50"/>
+                            
+    
+    
+    
+    
+    
+    <!-- Move Joint 1 (A1) to 30 degrees -->
+                            
+    
+    
+    
+    
+    
+    <Joint AbortCondition="false" Descr="Move A1 to 30 degrees" Nr="1" a1="10" a2="20" a3="30" a4="40" acc="100" smooth="0" velPercent="50"/>
+                            
+    
+    
+    
+    
+    
+    
+    <!-- Move Joint 2 (A2) to -50 degrees -->
+                            
+    
+    
+    
+    
+    
+    <Joint AbortCondition="false" Descr="Move A2 to -50 degrees" Nr="2" a1="20" a2="35" a3="35" a4="45" acc="100" smooth="0" velPercent="50"/>
+                            
+    
+    
+    
+    
+    
+    
+    <!-- Move Joint 3 (A3) to 25 degrees -->
+                            
+    
+    
+    
+    
+    
+    <Joint AbortCondition="false" Descr="Move A3 to 25 degrees" Nr="3" a1="30" a2="50" a3="25" a4="79" acc="100" smooth="0" velPercent="50"/>
+                            
+    
+    
+    
+    
+    
+    
+    <!-- Move Joint 4 (A4) to 90 degrees -->
+                            
+    
+    
+    
+    
+    
+    <Joint AbortCondition="false" Descr="Move A4 to 90 degrees" Nr="4" a1="30" a2="50" a3="25" a4="90" acc="100" smooth="0" velPercent="50"/>
+                            
+    
+    
+    
+    
+    
+    
+    <!-- Final position for all joints -->
+                            
+    
+    
+    
+    
+    
+    <Joint AbortCondition="false" Descr="Return to home position" Nr="5" a1="0" a2="0" a3="0" a4="0" acc="100" smooth="0" velPercent="50"/>
+                        
+
+
+
+
+
+</Program>
